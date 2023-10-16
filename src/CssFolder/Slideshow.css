@@ -1,0 +1,33 @@
+.all-slide {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    margin-top: 58px;
+    height: 100vh;
+    width: auto;
+    background-color: rgba(49, 49, 49, 0.9);
+  }
+  
+  .slideshow {
+    margin-top: 50px;
+    height: 100vh;
+    width: 500px;
+    padding: 0 20px;  
+    position: relative;
+  }
+  
+  .slideshow img {
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
+  }
+  
+  .slideshow img:first-child {
+    opacity: 1;
+  }
+  

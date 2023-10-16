@@ -1,0 +1,72 @@
+@keyframes customAnimation {
+    0% {
+        transform: scale(1);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1.2);
+        opacity: 1;
+    }
+  }
+  
+  .custom-animation {
+    animation: customAnimation 4s ease-in-out;
+  }
+  
+  .flex-container-home {
+    display: flex;
+  }
+  
+  .scroll-container-home {
+    overflow-x: hidden;
+    white-space: nowrap;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+  
+  .box-home,
+  .box-home-park {
+    flex: 1;
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+  }
+  
+  .box-home img {
+    max-width: 80%;
+    height: 80%;
+    object-fit: contain;
+    transition: transform 1.2s ease-in-out;
+  }
+  
+  .box-home-park img {
+    max-width: 90%;
+    height: 90%;
+    object-fit: contain;
+    transition: transform 1.2s ease-in-out;
+  }
+  
+  .box-home:hover img,
+  .box-home-park:hover img {
+    transform: scale(1.1);
+  }
+  
+  .box-home p,
+  .box-home-park p {
+    font-size: 20px;
+    color: black;
+  }
+  
+  .box-home .inner-content {
+    text-align: center;
+    margin-top: 10px;
+  }

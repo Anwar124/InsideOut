@@ -1,0 +1,10 @@
+.circle-image-ent3-conf1 {
+    position: absolute;
+    width: auto;
+    height: 17px;
+    top: 48%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    transform: rotateZ(210deg);
+}

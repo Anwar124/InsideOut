@@ -1,0 +1,10 @@
+.circle-image0 {
+    position: absolute;
+    width: auto;
+    height: 35px;
+    top: 92%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    transform: rotateX(30deg);
+}

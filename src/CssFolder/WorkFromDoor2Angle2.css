@@ -1,0 +1,9 @@
+.circle-image-conf-work-angle2 {
+    position: absolute;
+    width: auto;
+    height: 25px;
+    top: 76%;
+    left: 91%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+  }

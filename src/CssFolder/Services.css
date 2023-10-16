@@ -1,0 +1,96 @@
+#services {
+    background-image: url('../images/servicesbackground.webp');
+    background-size: cover;
+    background-position: center;
+    margin-top: 0px;
+    border: 2px solid white;
+}
+
+.services-container {
+    margin-bottom: 50px;
+    margin-top: 50px;
+    justify-content: center;
+    border: none;
+    align-items: center;
+}
+
+.services-header{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.services-body {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.image-place,
+.service-description-place {
+    padding: 20px;
+}
+
+.Modeling {
+    width: 400px;
+    height: 350px;
+    margin-left: 250px;
+}
+
+.service-image img {
+    width: 400px;
+    height: 350px;
+    margin-left: 250px;
+    border-radius: 15px;
+}
+
+.service-description-place {
+    justify-content: flex-start;
+}
+.service-description p {
+    text-align: start;
+    font-size: 20px;
+}
+
+.service-description {
+    text-align: start;
+    margin-right: 150px;
+}
+
+.services-body1 {
+    display: flex;
+    align-items: center;
+}
+
+.image-place1,
+.service-description-place1 {
+    padding: 20px;
+}
+ 
+.service-image1 img {
+    width: 400px;
+    height: 350px;
+    margin-right: 150px;
+    border-radius: 15px;
+}
+
+.service-image1-char img {
+    width: auto;
+    height: auto;
+    margin-right: 100px;
+}
+
+.service-description-place1 {
+    justify-content: flex-start;
+}
+
+.service-description1 {
+    margin-left: 250px;
+    text-align: start;
+}
+
+.service-description1 p {
+    text-align: start;
+    font-size: 20px;
+}
+

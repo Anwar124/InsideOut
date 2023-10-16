@@ -1,0 +1,96 @@
+.circle-image-ent3-desk {
+    position: absolute;
+    width: auto;
+    height: 20px;
+    top: 45%;
+    left: 88%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+  }
+  
+  .circle-image-ent3-desk {
+    box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.7);
+    border-radius: 50%;
+    animation: glow 2s infinite;
+  }
+  
+  @keyframes glow {
+  0% {
+    box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.7);
+  }
+  50% {
+    box-shadow: 0 0 30px 10px rgba(255, 255, 255, 0.9);
+  }
+  100% {
+    box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.7);
+  }
+  }
+  
+  .popup-form-park {
+    top: 0;
+    /* left: 0;
+    right: 0; */
+    bottom: 0;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 180px;
+    background-color: rgba(0, 0, 0, 0.333);
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    max-width: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+  }
+  
+  .form-group-park {
+  margin-bottom: 15px;
+  text-align: center;
+  }
+  
+  .close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  }
+  
+  .form-group-park input[type="text"],
+  .form-group-park input[type="email"],
+  .form-group-park input[type="tel"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  }
+  
+  .error-message {
+  color: red;
+  }
+  
+  .form-actions {
+  text-align: center;
+  }
+  
+  .submit-button {
+  background-color: #00ffc3;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  }
+  
+  .submit-button:hover {
+  background-color: #00b377;
+  }
+  

@@ -1,0 +1,9 @@
+.circle-image-conf-entrance-angle2 {
+    position: absolute;
+    width: auto;
+    height: 20px;
+    top: 22%;
+    left: 61%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}

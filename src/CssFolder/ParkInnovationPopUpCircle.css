@@ -1,0 +1,27 @@
+.circle-image-pi-desc {
+    position: absolute;
+    width: auto;
+    height: 30px;
+    top: 20%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.circle-image-pi-desc {
+    box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.7);
+    border-radius: 50%;
+    animation: glow 2s infinite;
+}
+
+@keyframes glow {
+    0% {
+      box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.7);
+    }
+    50% {
+      box-shadow: 0 0 30px 10px rgba(255, 255, 255, 0.9);
+    }
+    100% {
+      box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.7);
+    }
+}

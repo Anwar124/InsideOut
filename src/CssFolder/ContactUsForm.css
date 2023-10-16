@@ -1,0 +1,70 @@
+.contact-us-page {
+    text-align: center;
+    padding: 80px;
+    background-image: url('../images/contactusimage.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: auto;
+    height: auto;
+  }
+  
+  .contact-us-page h1 {
+    font-size: 40px;
+    text-align: center;
+    color: #00ffc3;
+    margin-bottom: 20px;
+  }
+  
+.contact-form {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    padding-right: 20px;
+    position: relative;
+    text-align: left;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width:85%;
+    padding: 10px;
+    margin-left: 25px;
+    border: 1px solid #ccc;
+    background-color: rgb(238, 238, 238);
+    font-size: 16px;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 14px;
+  }
+  
+  button {
+    background-color: #00ffc3;
+    color: black;
+    border: none;
+    margin-left: 160px;
+    padding: 15px 25px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.8s;
+   
+  }
+  
+  button:hover {
+    background-color: #00b377;
+  }
+  

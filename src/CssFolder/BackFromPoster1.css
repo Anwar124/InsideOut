@@ -1,0 +1,9 @@
+.goback1 {
+    position: absolute;
+    width: auto;
+    height: 50px;
+    top: 15%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}

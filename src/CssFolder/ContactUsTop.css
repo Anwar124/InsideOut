@@ -1,0 +1,37 @@
+.contact-top {
+    background-color: #555;
+}
+
+.contact-top h1 {
+    color: white;
+    font-size: 60px;
+    padding-top: 70px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.contact11 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 70px;
+}
+
+.contact-email {
+    color: white;
+    margin-right: 250px;
+    text-align: center;
+}
+
+.contact-phone {
+    color: white;
+    text-align: center;
+}
+
+hr {
+    width: 100px;
+    border: none;
+    border-top: 3px solid white;
+    margin: 0 auto;
+}

@@ -1,0 +1,79 @@
+.circle-image-programs {
+width: 100px;
+height: 100px;
+border-radius: 50%;
+cursor: pointer;
+transition: transform 0.3s ease-in-out;
+}
+
+.popup-form-park-programs p {
+margin-top: 10px;
+margin-left: 20px;
+margin-right: 20px;
+position: absolute;
+top: 10px;
+left: 10px;
+color: black;
+font-size: 18px;
+z-index: 1000;
+text-align: left;
+}
+
+.popup-form-park-programs {
+top: 0;
+bottom: 0;
+position: fixed;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+padding: 180px;
+background-color: #666;
+border: 1px solid #ccc;
+border-radius: 8px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+max-width: 550px;
+display: flex;
+justify-content: center;
+align-items: center;
+z-index: 999;
+}
+
+.content-form {
+margin-top: 70px;
+}
+
+.form-group-park-programs {
+margin-bottom: 15px;
+text-align: center;
+}
+
+.form-group-park-programs input[type="text"],
+.form-group-park-programs input[type="email"],
+.form-group-park-programs input[type="tel"] {
+width: 100%;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+
+.error-message-programs {
+color: red;
+}
+
+.form-actions-programs {
+text-align: center;
+}
+
+.submit-button-programs {
+background-color: #00ffc3;
+color: black;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+transition: background-color 0.3s ease-in-out;
+}
+
+.submit-button-programs:hover {
+background-color: #00b377;
+}
